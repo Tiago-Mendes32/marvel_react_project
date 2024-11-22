@@ -1,7 +1,7 @@
 import axios from "axios";
 import md5 from "md5";
 
-const url = "http://gateway.marvel.com/v1/public/characters";
+const url = "https://gateway.marvel.com/v1/public/characters";
 const publicKey = process.env.PUBLIC_KEY;
 const privateKey = process.env.PRIVATE_KEY;
 const ts = Number(new Date());
